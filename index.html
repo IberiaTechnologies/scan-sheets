@@ -4,16 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="./static/images/appstore1024.png" />
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <title>Scan To Sheets</title>
 </head>
 <body>
     <div class="nav-bar">
-
+        <img class="logo-img" src="./static/images/appstore1024.png">
+        <div class="navlink">
+            <a href="/privacy-policy.html">
+                <p class="navlink-text">About</p>
+            </a>
+        </div>
+        <div class="navlink">
+            <a href="/privacy-policy.html">
+                <p class="navlink-text">Privacy</p>
+            </a>
+        </div>
+        <div class="navlink">
+            <a href="/tos.html">
+                <p class="navlink-text">Terms</p>
+            </a>
+        </div>
     </div>
-    <div class="hero">
+    <div class="content">
+    <section class="hero">
+        <img src="./static/images/appstore1024.png" width="150">
         <h2>Scan To Sheets</h2>
         <p>Scan barcodes directly into your Google Sheets! Just sign in with Google, choose a spreadsheet, and start scanning!</p>
+    </section>
+    <section class="tutorial">
+        <h2>Select a Sheet</h2>
+        <div style="display: flex; gap: 20px;">
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/select-sheet/select-sheet-1.0.png" alt="">
+                <p>1-1 Tap the sheets button, or the spreadsheet bar to open the modal to choose a spreadsheet.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/select-sheet/select-sheet-1.1.png" alt="">
+                <p>1-2 Choose a spreadsheet and column from the dropdowns.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/select-sheet/select-sheet-1.2.png" alt="">
+                <p>1-3 Select a spreadsheet from the dropdown.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/select-sheet/select-sheet-1.3.png" alt="">
+                <p>1-4 Your spreadsheet is now selected, choose a column to scan to.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/select-sheet/select-sheet-1.4.png" alt="">
+                <p>1-5 Select a columnm to scan data to.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+
+        <h2>Create a New Sheet</h2>
+        <div style="display: flex; gap: 20px;;">
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/new-sheet/new-sheet-1.1.png" alt="">
+                <p>1-1 Tap the plus button.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/new-sheet/new-sheet-1.2.png" alt="">
+                <p>1-2 Choose a name for your spreadsheet and column from the dropdowns and click create.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/new-sheet/new-sheet-1.3.png" alt="">
+                <p>1-3 Your new sheet is now selected.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/new-sheet/new-sheet-1.4.png" alt="">
+                <p>1-4 Scan a barcode, the result will pop up on the bottom of the screen.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/new-sheet/new-sheet-1.5.png" alt="">
+                <p>1-5 Click the magnifying glass and set check the spreadsheet for the entry.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+
+        <h2>Edit a Cell</h2>
+        <div style="display: flex; gap: 20px;">
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+                <img src="./static/images/edit-cell/edit-cell-1.0.png" alt="">
+                <p>1-1 Tap the magnifying glass to view the spreadsheet and tap a cell.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/edit-cell/edit-cell-1.1.png" alt="">
+                <p>1-2 A modal will pop up with the cell data.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/edit-cell/edit-cell-1.2.png" alt="">
+                <p>1-3 Enter a new value and click update.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/edit-cell/edit-cell-1.3.png" alt="">
+                <p>1-4 Confirm the cell has updated in the spreadsheet view.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+
+        <h2>Update a Cell</h2>
+        <div style="display: flex; gap: 20px;">
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/update-cell/update-cell-1.0.png" alt="">
+                <p>1-1 Tap the pencil button to open a modal.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/update-cell/update-cell-1.1.png" alt="">
+                <p>1-2 Enter a cell (ex A1) and a value.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/update-cell/update-cell-1.2.png" alt="">
+                <p>1-3 Enter a new value and click update.</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <img src="./static/images/update-cell/update-cell-1.3.png" alt="">
+                <p>1-4 Confirm the cell has updated in the spreadsheet view.</p>
+            </div>
+        </div>
+    </section>
+    <div class="footer" style="display: flex; flex-direction: column;justify-content: center; align-items: center;">
+        <div style="display: flex; width: 100%; justify-content: center; align-items: center; gap: 20px">
+            <a href="./privacy-policy.html"><p>Privacy Policy</p></a>
+            <a href="./tos.html">Terms of Service</a>
+        </div>
+        <p>Copyright 2023 Iberia Technologies, LLC</p>
     </div>
-    
+
+</div>
 </body>
 </html>
